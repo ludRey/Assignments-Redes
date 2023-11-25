@@ -15,7 +15,7 @@ msg.attach(MIMEText(msg_text))
 image_path = 'carita.jpg'
 with open(image_path, 'rb') as image_file:
     image_data = image_file.read()
-    image = MIMEImage(image_data, name='image.png')
+    image = MIMEImage(image_data, name='carita.jpg')
     msg.attach(image)
 
 endmsg = "\r\n.\r\n"
